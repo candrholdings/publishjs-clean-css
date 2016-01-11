@@ -1,0 +1,30 @@
+{
+  "name": "publishjs-clean-css",
+  "version": "0.0.6",
+  "description": "Integrate clean-css with PublishJS",
+  "keywords": [
+    "clean-css",
+    "grunt",
+    "gulp",
+    "publishjs"
+  ],
+  "license": "MIT",
+  "email": "william.wong@candrholdings.com",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candrholdings/publishjs-clean-css.git"
+  },
+  "scripts": {
+    "test": "vows src/test/*-test.js --spec"
+  },
+  "dependencies": {
+    "clean-css": "^3.4.9",
+    "publishjs": "*"
+  },
+  "devDependencies": {
+    "async": "^1.0.0",
+    "async-linq": "^1.0.2",
+    "vows": "^0.8.1"
+  }
+}
